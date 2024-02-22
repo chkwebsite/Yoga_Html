@@ -346,10 +346,10 @@ margin-bottom: 0px !important;
 @media screen and (max-width: 991px){
     .slick_xxx .slick-prev {
         left: 5%;
-        top:75%;
+        top:70%;
     }
     .slick_xxx .slick-next {
         right: 5%;
-        top: 75%;
+        top: 70%;
     }
 }

@@ -657,6 +657,18 @@ ul.le_event li{
 .mt--50{
   margin-top: -50px;
 }
+.item.slick-current .event_details {
+  width: 100% !important;
+  left: 0% !important;
+}
+.slick_xxx .event_details .display_flex{
+  display:block
+}
+.slick_xxx .event_details .display_flex div{
+  float: left;
+    width: auto;
+    padding: 5px 12px;
+}
 }
 @media screen and (min-width: 768px) {
   /* .navbar-brand img {
@@ -699,6 +711,7 @@ ul.le_event li{
 .class_charges {
   top: 98px;
 }
+
 }
 @media screen and (max-width: 520px){
   .footer_nav ul {
