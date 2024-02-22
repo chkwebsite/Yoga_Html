@@ -1383,6 +1383,7 @@
         </div>
       </div>
     </section>
+    <a id="button"></a>
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/all.min.js"></script>
@@ -1394,6 +1395,22 @@
         $(".imgs").hover(function () {
         $(".summary").toggleClass("summary_show");
       });
+      var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
       });
       $('.our_courses').slick({
         slidesToShow: 3,
