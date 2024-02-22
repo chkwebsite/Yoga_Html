@@ -1,0 +1,355 @@
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    padding: 6px 0px 10px 0px;
+}
+.gallery-bx-wrp img{
+  /*  box-shadow: 0px 0px 3px 0px #545454;
+    background-image: linear-gradient(#f7acb8, #a3a3a3);*/
+    padding: 2px;
+	border:1px solid #ddd;
+    border-radius: 4px;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Slider end */
+
+/* Slider end */
+
+.slick-next {
+    position: absolute;
+right: 60px;
+top: -30px;
+background: #fff;
+border: none;
+color: transparent;
+width: 25px;
+height: 25px;
+}
+.slick-prev {
+position: absolute;
+right: 24px;
+top: -30px;
+background: #fff;
+border: none;
+color: transparent;
+width: 25px;
+height: 25px;
+}
+.slick-prev:before,
+.slick-next:before {
+content: "\f176";
+font-family: fontawesome;
+color: #ffffff;
+font-size: 16px;
+position: relative;
+top: 0px;
+}
+.slick-prev:before {
+content: "\f175";
+}
+.gallery-bx-wrp p{
+text-align: justify !important;
+padding: 0px !important;
+top: 0px !important;
+margin-bottom: 0px !important;
+}
+
+.our_courses-bx-wrp{
+    background-color: #ffffff;
+}
+.our_courses-bx-wrp img{
+    padding: 15px;
+}
+.our_courses-bx-wrp h5{
+    color: #5f41a5;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.our_courses-bx-wrp .disp_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    align-items: center;
+}
+.our_courses-bx-wrp .disp_flex span{
+    font-size: 12px;
+}
+.our_courses-bx-wrp .sld_discription{
+    text-align: center;
+    font-size: 12px;
+    color: #696969;
+    padding: 10px 20px 10px 20px;
+}
+
+.our_courses .slick-next {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    background: #5b5f97;
+    border: none;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transform: translateY(-50%);
+    padding-left: 16px;
+}
+.our_courses .slick-next:before {
+    content: "\f177";
+}
+.our_courses .slick-prev {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    background: #5b5f97;
+    border: none;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transform: translateY(-50%);
+    padding-left: 16px;
+}
+.our_courses .slick-prev:before {
+    content: "\f178";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slick_xxx .item .bg{
+	height:550px;
+	background-position:center;
+	background-size:cover;
+	transition:.3s;
+	margin:0 -24px;
+	opacity:.8;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+	transition: all 0.3s ease-in-out;
+}
+.slick_xxx .slick-list {
+	padding: 20px 0!important;
+	/* padding-top:20px!important;
+	padding-bottom:20px!important; */
+}
+
+.slick_xxx .slick-center .bg {
+	opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.7, 1.0, 1);
+    z-index: 10000000;
+    position: relative;
+}
+.slick-slide {
+    outline: none
+}
+.slick_xxx .slick-slide {
+    margin: 0px 0px;
+}
+.slick-prev,
+.slick-next {
+	position:absolute;
+	top:50%;
+	 z-index: 1;
+}
+
+.item .event_details{
+    display: none;
+}
+.item.slick-current .event_details{
+    float: left;
+    display: block;
+    width: 200%;
+    position: relative;
+    left: -50%;
+    background: #5b5f97;
+    padding: 10px 10px;
+}
+.event_details span{
+    font-size:10px
+}
+.slick_xxx .slick-next {
+    right: 25%;
+}
+.slick_xxx .slick-prev, .slick-next {
+    position: absolute;
+    top: 85%;
+    z-index: 1;
+}
+
+.slick_xxx .slick-prev:before {
+    content: "\f177";
+    color: #ddd;
+    padding-left: 9px;
+}
+.slick_xxx  .slick-next:before {
+    content: "\f178";
+    font-family: fontawesome;
+    color: #ddd;
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    padding-left: 9px;
+}
+.slick_xxx .slick-prev {
+    position: absolute;
+    right: 25%;
+    top: 84%;
+    background: transparent;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+}
+.slick_xxx .slick-next {
+    position: absolute;
+    right: 25%;
+    top: 84%;
+    background: transparent;
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.slick_xxx .slick-prev {
+    left: 25%;
+}
+@media screen and (max-width: 991px){
+    .our_courses .slick-prev, .our_courses .slick-next{
+        display:none !important;
+    }
+    .slick_xxx .slick-prev {
+        left: 10%;
+    }
+    .slick_xxx .slick-next {
+        right: 10%;
+    }
+}
+@media screen and (max-width: 991px){
+    .slick_xxx .slick-prev {
+        left: 5%;
+        top:75%;
+    }
+    .slick_xxx .slick-next {
+        right: 5%;
+        top: 75%;
+    }
+}
